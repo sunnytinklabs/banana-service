@@ -14,7 +14,7 @@ service:
   pipeline:
     source:
       provider: GitHub
-      repo: cplee/banana-service
+      repo: sunnytinklabs/banana-service
     build:
       image: aws/codebuild/java:openjdk-8
     acceptance:
